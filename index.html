@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedra, papel e tesoura</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <header>
+       <h1>Pedra, papel e tesoura</h1>
+   </header>
+      
+       <div class="placar">
+           <div id="user-label" class="badge">Você</div>
+           <div id="computer-label" class="badge">Comp</div>
+           <span id="user-score">0</span>x<span id="computer-score">0</span>  
+       </div>
+       
+       <div class="resultado">
+           <p>Escolha uma opção</p>
+       </div>
+       
+       <div class="escolhas">
+           <div class="escolha" id="pedra">
+               <img src="resources/hand-rock.svg" height="70">
+           </div>   
+
+           <div class="escolha" id="papel">
+               <img src="resources/hand-paper.svg" height="70" width="70">
+           </div>   
+
+           <div class="escolha" id="tesoura">
+               <img src="resources/hand-scissors.svg" height="70">
+           </div>   
+       </div>
+       
+       <p id="msg-acao">Escolha um movimento</p>
+       <script src="app.js" charset="utf-8"></script>
+   
+    
+</body>
+</html>
